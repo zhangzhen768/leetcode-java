@@ -1,6 +1,4 @@
 package array.leetcode283;
-//https://leetcode-cn.com/problems/move-zeroes/submissions/
-import org.junit.Test;
 //给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
 //
 // 示例:
@@ -16,7 +14,9 @@ import org.junit.Test;
 //
 // Related Topics 数组 双指针
 // 👍 910 👎 0
+import org.junit.Test;
 
+//https://leetcode-cn.com/problems/move-zeroes/submissions/
 public class Solution {
     public void moveZeroes(int[] nums) {
         if (nums == null || nums.length < 2)
