@@ -25,9 +25,9 @@ package array.leetcode70;
 // Related Topics 动态规划
 // 👍 1414 👎 0
 
+//https://leetcode-cn.com/problems/climbing-stairs/submissions/
 import org.junit.Test;
 
-//https://leetcode-cn.com/problems/climbing-stairs/submissions/
 public class Solution {
     public int climbStairs(int n) {
         if (n <= 2)

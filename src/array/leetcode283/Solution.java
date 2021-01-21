@@ -14,9 +14,10 @@ package array.leetcode283;
 //
 // Related Topics 数组 双指针
 // 👍 910 👎 0
-import org.junit.Test;
 
 //https://leetcode-cn.com/problems/move-zeroes/submissions/
+import org.junit.Test;
+
 public class Solution {
     public void moveZeroes(int[] nums) {
         if (nums == null || nums.length < 2)
